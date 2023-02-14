@@ -1,0 +1,123 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    
+
+    padding:0px;
+    margin:0px;
+}
+
+html{
+    scroll-behavior: smooth;
+    height:100%;
+    
+}
+
+body{
+    background:rgba(0,0,0,0.7) url(IMAGES/universe.jpg)  center center fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: darken;
+    min-height: 100vh;
+    
+  
+}
+
+ul{
+    width: 100%;
+}
+
+.navbar{
+   
+        height: 50px;
+        width: 100vw;
+        background-color: rgb(255, 255, 255);
+        margin: 0px;
+        padding: 0px;
+        position: sticky;
+        top: 0px;
+        z-index: 999999999;
+
+    }
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.navbar ul li  {
+    margin: 15px;
+    list-style: none;
+    font-size: 1.2rem;
+}
+.navbar ul li a{
+   color: black;
+   text-decoration: none;
+}
+.navbar ul li a:hover{
+   text-decoration: underline;
+   font-size: 1.22rem;
+}
+.h11{ 
+    color: #c8e90edb;
+   font-size:75px;
+   
+}
+.bg{
+    background:rgba(0,0,0,0.7) url(IMAGES/universe.jpg)  center center fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: darken;
+    height: 210px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#about{
+    display: flex;
+    background:rgba(0,0,0,0.7) url(IMAGES/diya.jpg)  center center fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: darken;
+    width: 100vw;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+
+}
+
+.imgcon{
+height: 100px;
+width: 100px;
+border: 3px solid white;
+border-radius: 7px;
+position: relative;
+top: 10px;
+
+}
+
+.abouttextcon{
+    color: white;
+    margin: auto;
+}
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color:#24262b;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 15px;
+    justify-content: center;
+    
+   }
+   .footdiv{
+    margin:20px;
+   }
+
+   

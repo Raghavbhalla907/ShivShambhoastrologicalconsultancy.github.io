@@ -1,0 +1,64 @@
+@media(max-width:375px){
+    .navbar{
+        height: 95px;
+    }
+}
+@media(max-width:289px){
+    .navbar{
+        width: 115vw;
+    }
+    .bg{
+        width: 115vw;
+    }
+    .footer{
+        width: 115vw
+        
+    }
+}
+@media(max-width:254px){
+   .h12{
+    font-size: 55px;
+   }
+}
+@media(max-width:220px){
+   .h12{
+    font-size: 55px;
+}
+ .footer{
+    height: 325px;
+ }
+}
+@media(max-width:255px){
+    .h12{
+        font-size: 32px;
+       }
+  }
+  @media(max-width:386px){
+    .h12{
+        font-size: 55px;
+       }
+  }
+  @media(max-width:625px){
+    .h12{
+        font-size: 55px;
+       }
+  }
+  @media(max-width:453px){
+    .h12{
+        font-size: 40px;
+       }
+  }
+  @media(max-width:446px){
+    .faqchild{    
+        height: 300px;
+    }
+    .faq{
+        height: 900px;
+    }
+  }
+  @media(max-width:244px){
+    .faqchild{    
+        height: 360px;
+    }
+    
+  }

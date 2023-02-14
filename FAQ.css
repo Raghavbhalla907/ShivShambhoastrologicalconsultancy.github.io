@@ -1,0 +1,119 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    
+
+    padding:0px;
+    margin:0px;
+}
+
+html{
+    scroll-behavior: smooth;
+    height:100%;
+    
+}
+
+body{
+    background:rgba(0,0,0,0.7) url(IMAGES/universe.jpg)  center center fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: darken;
+    min-height: 100vh;
+    
+  
+}
+
+ul{
+    width: 100%;
+}
+
+.navbar{
+   
+        height: 50px;
+        width: 110vw;
+        background-color: rgb(255, 255, 255);
+        margin: 0px;
+        padding: 0px;
+        position: sticky;
+        top: 0px;
+        
+
+    }
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.navbar ul li  {
+    margin: 15px;
+    list-style: none;
+    font-size: 1.2rem;
+}
+.navbar ul li a{
+   color: black;
+   text-decoration: none;
+}
+.navbar ul li a:hover{
+   text-decoration: underline;
+   font-size: 1.22rem;
+}
+.h11{ 
+    color: #c8e90edb;
+   font-size:75px;
+}
+.bg{
+    background:rgba(0,0,0,0.7) url(IMAGES/universe.jpg)  center center fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: darken;
+    height: 210px;
+    width: 110vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.faq{
+    height: 600px;
+    width:100vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 20px;
+    padding: 10px;
+   justify-self: center;
+   align-items: center;
+   justify-content: center;
+   background:rgba(0,0,0,0.7) url(IMAGES/fether.jpg)  center center fixed;
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-blend-mode: darken;
+   
+}
+.faqchild{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 10px;
+    width: 80%;
+    background-color: white;
+    height: 200px;
+}
+.footer{
+    min-height:  300px;
+    width: 110vw;
+    background-color:#24262b;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 15px;
+    justify-content: center;
+    position: sticky;
+    top: 100%;
+    
+    
+   }
+   .footdiv{
+    margin:20px;
+   }
+ 

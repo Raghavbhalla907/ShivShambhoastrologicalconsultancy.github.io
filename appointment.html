@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiv Shambho astrological consultancy||Appointment</title>
+    <link rel="stylesheet" href="appointment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="appointmentresponsive.css">
+    <meta name="discription" content="Curious about future? Well,you are at the write place. Know your future through Horoscope,Reading of palm.Easy and effective upayas for all the malfic planets.">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg"><h1 class="h11 h12">Reading of stars</h1></div>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#appointment">Appointment</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+        </ul>
+    </div>
+
+  <br>
+   <br>
+   <div id="appointment">
+    <h1>Appointment</h1>
+    <form method="get" onsubmit="whatsapp()">
+        <input type="text" placeholder="Enter your name" id="Name" class="area" required>
+        <br>
+        <input type="text" placeholder="Enter your Contact" minlength="10"
+        maxlength="10" id="Contact" class="area" required>
+        <br>
+        <input type="email" placeholder="Enter your Email" id="Email" class="area" required>
+        <br>
+
+      <textarea name="textarea" id="textarea"  rows="10" class="area" placeholder="Enter your message" required></textarea>
+        <br>
+         
+
+        <input type="submit" value="Submit" id="Submit" class="area" placeholder="Submit
+        ">
+    </form>
+   </div>
+  <br>
+  <footer class="footer">
+    <div class="col1 footdiv">
+       <h3>Jyotishi</h3>
+       <br>
+       Make your life easy.</div>
+    <div class="contact footdiv">
+       
+       <h1>Contact us</h1>
+       <br>
+       <p>
+          <i class="fa-solid fa-envelope"></i> pankaj1chopra@gmail.com
+       <br>
+       <br>
+       <i class="fa-solid fa-phone"></i> +91 9872077739
+    </p>
+ 
+ 
+       </div>
+ 
+       version:1.0.0
+
+       <script>
+        
+   function whatsapp(){
+   var Name =document.getElementById("Name").value
+   var Contact =document.getElementById("Contact").value
+   var Email =document.getElementById("Email").value
+   var Message =document.getElementById("textarea").value
+
+
+   var url ="https://wa.me/+919872077739?text="
+   +"Name : "+Name+"%0a" 
+   +"Number : "+Contact+"%0a"  
+   +"Email : "+Email+"%0a"
+   +"Message : "+Message+"%0a"   
+   window.open(url,'_blank').focus();
+   }
+
+
+       </script>
+
+ </footer>
+</body>
+</html>
